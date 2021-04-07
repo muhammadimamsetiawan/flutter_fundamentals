@@ -30,7 +30,7 @@ class _MyAppState extends State<MyApp> {
                       postResult.job +
                       " | " +
                       postResult.created
-                  : "Tidak ada data"),
+                  : "Tidak ada Data"),
               RaisedButton(
                 onPressed: () {
                   PostResult.connectToAPI("Badu", "Dokter").then((value) {
